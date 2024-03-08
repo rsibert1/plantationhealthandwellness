@@ -6394,7 +6394,7 @@ footer > .container > .row >*[class*="col"]:not(:first-child):not(:last-child) .
 .header_logo_area{
     overflow: hidden;
     clear: both;
-    background: url(../img/header-logo-bg-a.png) no-repeat scroll center center;
+    background: url(../img/header-logo-bg.png) no-repeat scroll center center;
     background-size: cover;
     padding: 26px 0px;
 }

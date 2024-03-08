@@ -11,6 +11,7 @@
    
     <link rel="shortcut icon" href="img/favicon.ico" />
   	<title>chiroprato</title>
+	
 	<!--    Styles-START 	-->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="css/swiper.css" type="text/css" />
@@ -18,7 +19,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <!--    Styles-END 	-->
-    
+    	
 </head>
 <body>
 
@@ -43,7 +44,15 @@
 
 					<!-- 	Header booking-START 	-->
 					<div class="headerBooking normall">
-						<a href="#">Book Appointment</a>
+						<i class="fa fa-twitter"></i>
+						<a href="https://twitter.com/" target="_blank"></a>
+						<i class="fa fa-facebook"></i>
+						<a href="https://www.facebook.com/" target="_blank"></a>
+						<i class="fa fa-linkedin"></i>
+						<a href="https://www.linkedin.com/" target="_blank"></a>
+						<i class="fa fa-google-plus"></i>
+						<a href="https://plus.google.com/" target="_blank"></a>
+						<!--<a href="#">Book Appointment</a>-->
 					</div>
 					<!-- 	Header booking-END 	-->
 					<div class="clear"></div>
@@ -76,8 +85,9 @@
 							<!-- 	Navigation-START 	-->
 							<nav>
 								<ul>
-									<li>
+									<li class="activeMenu">
 										<a href="index.html">Home</a>
+										<!--
 										<i class="fa fa-angle-down"></i>
 										<ul>
 											<li><a href="index-2.html">Home 02</a></li>
@@ -85,32 +95,38 @@
 											<li><a href="index-4.html">Home 04</a></li>
 											<li><a href="index-5.html">Home 05</a></li>
 										</ul>
+										-->
 									</li>
 									<li>
 										<a href="about-us.html">about us</a>
-										<i class="fa fa-angle-down"></i>
+										<!--<i class="fa fa-angle-down"></i>
 										<ul>
 											<li><a href="about-us.html">Our Introduction</a></li>
 											<li><a href="our-team.html">Our Therapists</a></li>
 											<li><a href="therapist-profile.html">Single Therapist</a></li>
 											<li><a href="faq.html">Faq</a></li>
 										</ul>
+										-->
 									</li>
-									<li class="activeMenu">
+									<li>
 										<a href="services.html">Services</a>
 										<i class="fa fa-angle-down"></i>
 										<ul>
-											<li><a href="services.html">All Services</a></li>
-											<li><a href="chiropratic-therapy.html">Chiropratic Therapy</a></li>
+											<!--<li><a href="services.html">All Services</a></li>
+											<li><a href="chiropratic-therapy.html">Chiropratic Therapy</a></li> -->
 											<li><a href="physiotherapy.html">Physiotherapy</a></li>
-											<li><a href="cold-laser-therapy.html">Cold Laser Therapy</a></li>
+											<li><a href="physiotherapy.html">Physiotherapy</a></li>
+											<li><a href="physiotherapy.html">Physiotherapy</a></li>
+											<li><a href="physiotherapy.html">Physiotherapy</a></li>
+											<!-- <li><a href="cold-laser-therapy.html">Cold Laser Therapy</a></li>
 											<li><a href="message-therapy.html">Message Therapy</a></li>
 											<li><a href="clinical-pilates.html">Clinical Pilates</a></li>
 											<li><a href="sport-injury.html">Sport Injuries</a></li>
 											<li><a href="work-injury.html">Work Injuries</a></li>
-											<li><a href="cold-and-heat-therapy.html">Cold And Heat Therapy</a></li>
+											<li><a href="cold-and-heat-therapy.html">Cold And Heat Therapy</a></li> -->
 										</ul>
 									</li>
+									<!--
 									<li>
 										<a href="new-patient.html">patients</a>
 										<i class="fa fa-angle-down"></i>
@@ -144,6 +160,8 @@
 											<li><a href="blog-detail.html">Blog Details</a></li>
 										</ul>
 									</li>
+									-->
+									<!--
 									<li>
 										<a href="shop-page.html">shop</a>
 										<i class="fa fa-angle-down"></i>
@@ -154,19 +172,10 @@
 											<li><a href="checkout.html">Checkout Page</a></li>
 										</ul>
 									</li>
+									-->
 									<li><a href="contact-us.html">contact us</a></li>
 								</ul>
 							</nav>
-							<!-- 	Navigation-END 	-->
-
-							<!-- 	Header search-START 	-->
-							<div class="headerSearch open-popup" data-rel="1">
-								<i class="fa fa-search"></i>
-							</div>
-							<!-- 	Header search-END 	-->
-							<div class="clear"></div>
-						</div>
-					</div>
 					<!-- 	Nav-END 	-->
 				</div>
 
@@ -214,8 +223,8 @@
 							<!-- 	Category-START 	-->
 							<div class="categoryBlock style2 normall">
 								<ul>
-									<li class="activeCate"><a href="chiropratic-therapy.html">Chiropratic Therapy</a> <i class="fa fa-angle-right"></i></li>
-									<li><a href="physiotherapy.html">Physiotherapy</a> <i class="fa fa-angle-right"></i></li>
+									<li><a href="chiropratic-therapy.html">Chiropratic Therapy</a> <i class="fa fa-angle-right"></i></li>
+									<li class="activeCate"><a href="physiotherapy.html">Physiotherapy</a> <i class="fa fa-angle-right"></i></li>
 									<li><a href="cold-laser-therapy.html">Cold Laser Therapy</a> <i class="fa fa-angle-right"></i></li>
 									<li><a href="message-therapy.html">Message Therapy</a> <i class="fa fa-angle-right"></i></li>
 									<li><a href="clinical-pilates.html">Clinical Pilates</a> <i class="fa fa-angle-right"></i></li>
@@ -268,25 +277,15 @@
         			</div>
         			<div class="col-sm-12 col-lg-9">
         				<div class="articleWrapper">
-        					<div class="row">
-								<div class="col-sm-7">
-									<div class="imgWrapper">
-										<img src="img/image5.jpg" alt="">
-									</div>
-								</div>
-								<div class="col-sm-5">
-									<div class="imgWrapper">
-										<img src="img/image6.jpg" alt="">
-									</div>
-								</div>
-							</div>
-							<div class="titleShortcode has-line is-inline">
-       							<h4 class="h4 as">chiropratic therapy</h4>
-       						</div>
+        					<div class="titleShortcode has-line is-inline smallMb">
+        						<h4 class="h4 as">physiotherapy</h4>
+        					</div>
        						<div class="simple-article normall">
+       							<img src="img/image8.jpg" alt="" class="pull-right">
        							<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-       							<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est. Naqui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-       							<img src="img/image7.jpg" alt="" class="pull-left">
+       							<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo  Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+       							<br>
+       							<img src="img/image9.jpg" alt="" class="pull-right">
        							<h5>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur</h5>
        							<p>magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
        							<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate.</p>
@@ -529,6 +528,7 @@
     <script src="js/jquery.sumoselect.min.js"></script>
     <script src="js/simple-lightbox.min.js"></script>
     <script src="js/global.js"></script>
+    <!--    Scripts-END 	-->
 
 </body>
 </html>

@@ -2590,7 +2590,7 @@ header {
 .headerTopInfo {
 	position: relative;
 	padding: 7px 0;
-	background: #12335c;
+	background-color: #12335c;
 	-webkit-transition: all 150ms linear;
 	transition: all 150ms linear;
 }

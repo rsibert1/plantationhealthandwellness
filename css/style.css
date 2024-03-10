@@ -1668,6 +1668,41 @@ textarea.light:-ms-input-placeholder {
 	color: #2d292d;
 }
 
+.socialWrapperhead {
+	position: relative;
+	right:75%
+}
+
+.socialWrapperhead a {
+	font-size: 14px;
+	display: inline-block;
+	padding: 14px;
+	border: 1px solid #666;
+	border-radius: 100%;
+	position: relative;
+	color: #666;
+	margin: 0 4px;
+	-webkit-transition: all 150ms linear;
+	transition: all 150ms linear;
+}
+
+.socialWrapperhead a:first-child {
+	margin-left: 0;
+}
+
+.socialWrapperhead a i.fa {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.socialWrapperhead a:hover {
+	background: #c6c194;
+	border-color: #c6c194;
+	color: #2d292d;
+}
 /*Gallery*/
 
 .gallerWrapper {
@@ -5204,7 +5239,7 @@ footer {
 }
 
 .footerBlock .simple-article p {
-	color: rgba(192, 181, 193, .6);
+	color: #12335c;
 }
 
 .footerTitle {
@@ -5213,7 +5248,7 @@ footer {
 }
 
 .footerTitle .as {
-	color: #d5d5d5;
+	color: #12335c;
 	letter-spacing: 2px;
 }
 
@@ -5248,7 +5283,7 @@ footer {
 }
 
 .simple-article.style2 ul li a {
-	color: rgba(192, 181, 193, .6);
+	color: #12335c;
 	-webkit-transition: all 150ms linear;
 	transition: all 150ms linear;
 }
@@ -5279,12 +5314,12 @@ footer {
 	text-transform: uppercase;
 	font-weight: 700;
 	line-height: 14px;
-	color: rgba(192, 181, 193, .6);
+	color: #12335c;
 	margin-bottom: 5px;
 }
 
 .locationContent span {
-	color: rgba(192, 181, 193, .6);
+	color: #12335c;
 }
 
 .footerContants {
@@ -5308,7 +5343,7 @@ footer {
 
 .footerContants a,
 .footerContants p {
-	color: rgba(192, 181, 193, .6);;
+	color: #12335c;;
 	padding-left: 36px;
 	font-weight: 700;
 	-webkit-transition: all 150ms linear;
@@ -7380,7 +7415,7 @@ header .headerTopInfo {
 }
 
 footer {
-    background: #211D22;
+    background: #F9F9F9;
 }
 .footerTitle .as {
     font-family: 'Raleway';
@@ -7470,7 +7505,7 @@ footer {
 }
 
 .footerContants a, .footerContants p {font-weight: normal;}
-.footerTitle .as {letter-spacing: 0;font-size: 18px;letter-spacing: .03em;font-weight: bold;color: #d5d5d5;}
+.footerTitle .as {letter-spacing: 0;font-size: 18px;letter-spacing: .03em;font-weight: bold;color: #12335c;}
 .copy, .created {margin: 26px 0;}
 
 .parallax {-webkit-background-size: cover; background-size: cover;background-attachment: fixed;}

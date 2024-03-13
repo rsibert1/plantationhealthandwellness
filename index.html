@@ -22,6 +22,22 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" />
 	<!-- test -->
     <!--    Styles-END 	-->
+
+	<script>
+		function initMap() {
+    var service = new google.maps.places.PlacesService(document.createElement('div'));
+    service.getDetails({
+        placeId: 'ChIJ2dOCzeXq2YgRgr_5W6r3E0U'
+    }, function(place, status) {
+        if (status === google.maps.places.PlacesServiceStatus.OK) {
+            place.reviews.forEach(function(review) {
+                // Display review on your website
+                console.log(review.text);
+            });
+        }
+    });
+}
+	</script>
 	
 </head>
 <body>
@@ -47,15 +63,14 @@
 
 					<!-- 	Header booking-START 	-->
 					<div class="headerBooking normall">
-						<i class="fa fa-twitter"></i>
-						<a href="https://twitter.com/" target="_blank"></a>
-						<i class="fa fa-facebook"></i>
-						<a href="https://www.facebook.com/plantationhealthandwellness" target="_blank"></a>
-						<i class="fa fa-linkedin"></i>
-						<a href="https://www.linkedin.com/" target="_blank"></a>
-						<i class="fa fa-google-plus"></i>
-						<a href="https://plus.google.com/" target="_blank"></a>
-						<!--<a href="#">Book Appointment</a>-->
+
+						<div class="socialWrapper">
+							<a href="https://twitter.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+							<a href="https://www.facebook.com/plantationhealthandwellness" target="_blank"><i class="fa fa-facebook"></i></a>
+							<a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+							<a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
+							<a href="https://plus.google.com/" target="_blank"><i class="fa fa-yelp"></i></a>
+						</div>
 					</div>
 					<!-- 	Header booking-END 	-->
 					<div class="clear"></div>
@@ -451,7 +466,7 @@
 			</div>
 		</div>
 		<!-- 	Offer-END 	-->
-		
+
 		<!--  	Request service-START 	-->
 		<!--
 		<div class="contentPadding grey">
@@ -886,11 +901,13 @@
     						-->
          					<div class="emptySpace15"></div>
          					<!-- 	Social-START 	-->
+
 							<div class="socialWrapper">
-								<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+								<a href="https://twitter.com/" target="_blank"><i class="fa fa-instagram"></i></a>
 								<a href="https://www.facebook.com/plantationhealthandwellness" target="_blank"><i class="fa fa-facebook"></i></a>
 								<a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
 								<a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
+								<a href="https://plus.google.com/" target="_blank"><i class="fa fa-yelp"></i></a>
 							</div>
 							<!-- 	Social-END 	-->
 							<div class="emptySpace-md30"></div>

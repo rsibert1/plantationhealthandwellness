@@ -22,22 +22,6 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" />
 	<!-- test -->
     <!--    Styles-END 	-->
-
-	<script>
-		function initMap() {
-    var service = new google.maps.places.PlacesService(document.createElement('div'));
-    service.getDetails({
-        placeId: 'ChIJ2dOCzeXq2YgRgr_5W6r3E0U'
-    }, function(place, status) {
-        if (status === google.maps.places.PlacesServiceStatus.OK) {
-            place.reviews.forEach(function(review) {
-                // Display review on your website
-                console.log(review.text);
-            });
-        }
-    });
-}
-	</script>
 	
 </head>
 <body>
@@ -200,6 +184,7 @@
 							<!-- 	Header search-START 	-->
 							<div class="headerSearch open-popup" data-rel="1">
 								<i class="fa fa-search"></i>
+							</div>
 							</div>
 							<!-- 	Header search-END 	-->
 							<div class="clear"></div>
@@ -675,7 +660,7 @@
       	<div class="contentPadding bgOverlay" style="background-image: url(img/overlay-bg.png)">
       		<div class="container">
       			<div class="titleShortcode has-line is-inline">
-					<h4 class="h4 as">What Our Clinet Says</h4>
+					<h4 class="h4 as">What Our Client Says</h4>
 				</div>
       			<div class="row">
       				<div class="col-xs-12">

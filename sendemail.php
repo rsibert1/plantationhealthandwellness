@@ -1,6 +1,8 @@
 <?php //ob_start();
 if(isset($_REQUEST['event']) && $_REQUEST['event']!=''){$event=$_REQUEST['event'];}else{$event='';}
-define('SITE_EMAIL', 'forwebmasterua@gmail.com');
+define('SITE_EMAIL', 'rob0171@gmail.com');
+define( "RECIPIENT_NAME", "Rob Sibert");
+define( "RECIPIENT_NAME", "rob0171@gmail.com")
  
     /* recipients */
     $to1= SITE_EMAIL;

@@ -7391,7 +7391,7 @@ footer > .container > .row >*[class*="col"]:not(:first-child):not(:last-child) .
     margin: 0;
     font-family: "Playfair Display";
     font-weight: bold;
-    font-style: italic;
+    font-style: normal;
 }
 
 header .headerTopInfo {

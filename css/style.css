@@ -1755,25 +1755,6 @@ textarea.light:-ms-input-placeholder {
 	cursor: pointer;
 }
 
-.imgThumbnail:after {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background: #12335c;
-	-webkit-transform: scale(0);
-	transform: scale(0);
-	-webkit-transition: all 350ms linear;
-	transition: all 350ms linear;
-	content: '';
-}
-
-.imgThumbnail:hover:after {
-	-webkit-transform: scale(2);
-	transform: scale(2);
-}
-
 .imgThumbnail i.fa {
 	border: 1px solid #fff;
 	border-radius: 100%;
@@ -1791,14 +1772,6 @@ textarea.light:-ms-input-placeholder {
 	transition: all 200ms linear;
 }
 
-.imgThumbnail:hover i.fa {
-	opacity: 1;
-	-webkit-transform: translate(-50%,-50%);
-	transform: translate(-50%,-50%);
-	-webkit-transition-delay: 250ms;
-	transition-delay: 250ms;
-}
-
 .ThumbnailWrapper .imgWrapper {
 	margin-bottom: 25px;
 }
@@ -1812,12 +1785,6 @@ textarea.light:-ms-input-placeholder {
 .ThumbnailWrapper .as a {
 	-webkit-transition: all 150ms linear;
 	transition: all 150ms linear;
-}
-
-.ThumbnailWrapper .as a:hover,
-.ThumbnailWrapper .as a:focus {
-	color: #12335c;
-	text-decoration: underline;
 }
 
 .ThumbnailWrapper.style2 {
@@ -1851,27 +1818,11 @@ textarea.light:-ms-input-placeholder {
 	margin-bottom: 34px;
 }
 
-.ThumbnailWrapper.style4 .imgThumbnail:after {
-	background: rgba(0, 0, 0, .0);
-	-webkit-transform: scale(1);
-	transform: scale(1);
-}
-
 .ThumbnailWrapper.style4 .imgThumbnail img {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: all 150ms linear;
 	transition: all 150ms linear;
-}
-
-.ThumbnailWrapper.style4 .imgThumbnail:hover:after {
-	background: rgba(0, 0, 0, .2);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
-}
-.ThumbnailWrapper.style4 .imgThumbnail:hover img {
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
 }
 
 .ThumbnailWrapper.style4 > span {
@@ -3086,7 +3037,7 @@ nav ul li ul li i.fa {
 }
 
 .clientSay {
-	background: #fff;
+	background: #12335c;
 	padding: 34px 35px 34px 66px;
 	position: relative;
 	box-shadow: 0px 0px 12px rgba(0, 0, 0, .05);
@@ -3102,7 +3053,11 @@ nav ul li ul li i.fa {
     height: 0;
     border-left: 0px solid transparent;
     border-right: 25px solid transparent;
-    border-top: 22px solid #fff;
+    border-top: 22px solid #12335c;
+}
+
+p.review-text {
+    color: white;
 }
 
 .clientSay i.fa {

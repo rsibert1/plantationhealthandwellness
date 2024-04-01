@@ -197,7 +197,7 @@
       	<div class="headerClearFix"></div>
       	
       	<!-- 	Page title-START 	-->
-        <div class="pageTitle bgShadow bg" style="background-image: url(img/office-pic2-sm-contact-us.jpg)">
+        <div class="pageTitle bgShadow bg" style="background-image: url(img/outside-front-3-images.jpg)">
        		<div class="container">
        			<div class="row">
        				<div class="col-xs-12">
@@ -229,7 +229,9 @@
         				<div class="titleShortcode has-line is-inline smallMb small">
         					<h4 class="h4 as">Contact Us</h4>
         					<div class="simple-articel normal">
-        						<p>Fill out the form below and we will be in contact with you.</p>
+        						<p>Fill out the form below and we will be in contact with you.</p><br>
+								<p>"Please use this form for general information purposes only.  DO NOT send personal health information through this form.  Specific patient care must be addressed during your appointment."</p>
+
         					</div>
         				</div>
         			</div>
@@ -283,14 +285,15 @@
         			<div class="eP emptySpace90 emptySpace-xs30"></div>
         			
         			<div class="col-xs-12 col-sm-6">
+						<div class="requestSuccess" style="display: none; padding-bottom: 25px;"></div>
         				<form id="contact-form" onSubmit="return submitForm();" action="sendemail.php" method="post" name="contactform" class="contactForm">
-        					<input class="simple-input" name="name" type="text" required placeholder="Name">
+        					<input class="simple-input" name="name" type="text" required placeholder="Name" style="color: black">
         					<div class="emptySpace20"></div>
-        					<input class="simple-input" name="email" type="email" required placeholder="Email">
+        					<input class="simple-input" name="email" type="email" required placeholder="Email" style="color: black">
         					<div class="emptySpace20"></div>
-        					<input class="simple-input" name="subject" type="text" required placeholder="Subject">
+        					<input class="simple-input" name="subject" type="text" required placeholder="Subject" style="color: black">
         					<div class="emptySpace20"></div>
-        					<textarea class="simple-input" name="message" required placeholder="Message"></textarea>
+        					<textarea class="simple-input" name="message" required placeholder="Message" style="color: black"></textarea>
         					<div class="emptySpace40 emptySpace-xs30"></div>
         					<button type="submit" class="button btnStyle5 btnSize4">Submit now</button>
         				</form>
@@ -376,6 +379,7 @@
 							<div class="simple-article style2">
 								<ul>
 									<li><a href="about-us.html">About Us</a></li>
+									<li><a href="hipaa-privacy.html">HIPAA Privacy</a></li>
 									<!--
 									<li><a href="#">Make Appointment</a></li>
 									<li><a href="#">Get Free Quote</a></li>
@@ -462,7 +466,7 @@
 						</div>
 						<div class="col-xs-12 col-sm-4">
 							<div class="created">
-								<a href="#">Created by: <span>RSNI</span></a>
+								<a href="#">Created by: <span>PHW Marketing and Management Services, LLC</span></a>
 							</div>
 						</div>
 						<div class="clear"></div>
